@@ -38,3 +38,25 @@ Your name is Alfian, and you 19 years old
 Your name is Alfian
 */
 ```
+
+## Konversi
+- toByte(): Byte
+- toShort(): Short
+- toInt(): Int
+- toLong(): Long
+- toFloat(): Float
+- toDouble(): Double
+- toChar(): Char
+
+example:
+```kotlin
+fun main() {
+    val stringNumber = "23"
+    val intNumber = 3
+ 
+    print(intNumber + stringNumber.toInt())
+    /*
+     output: 26
+     */
+}
+```
